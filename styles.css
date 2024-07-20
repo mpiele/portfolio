@@ -1,0 +1,9 @@
+body {
+    background-color: #0E131F;
+}
+
+#intro_text{
+    font-size: 4vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #8b939c;
+}
