@@ -1,0 +1,23 @@
+body
+{
+    display: block;
+    background-color: #1E1E1E;
+}
+
+#header
+{
+    display: flex;
+    justify-content: center;
+    /*border-style: solid;*/
+}
+
+.header_buttons
+{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2.3vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: #EEEEEE;
+}

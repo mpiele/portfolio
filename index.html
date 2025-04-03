@@ -1,24 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matei Piele</title>
     <link rel="stylesheet" href="styles.css">
+   <title>Matei Piele</title> 
 </head>
 <body>
-    <div id="intro_text">
-        Hello, my name is Matei
+    <div id="header">
+        <a href="about.html" class="header_buttons">About</a>
+        <a href="index.html" class="header_buttons">Home</a>
+        <a href="contact.html" class="header_buttons">Contact</a>
     </div>
-    <div id="intro_text">
-        I'm a <span id="typing-text" class="dynamic-text"></span>
+    <div id="name_title_div">
+        <h1 id="name_title">Matei Piele</h1>
     </div>
-    <div id="intro_text">
-        Find my work on 
-        <a id="x-link" href="https://x.com/matveymedia" target="_blank">𝕏</a>
-        and
-        <a id="x-link" href="https://matveymedia.gumroad.com/l/becomeunstoppable" target="_blank">Gumroad</a>
+    <div id="description_div">
+        <h1 id="description_text">Professional web developer, web designer and AI engineer.</h1>
     </div>
-    <script src="script.js"></script>
+        
+    <!-- Terminal code -->
+    <div id="terminal_div">
+        <div class="terminal-loader">
+            <div class="terminal-header">
+                <div class="terminal-title">Status</div>
+                <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">I am for hire...</div>
+      </div>
+    </div>
+
+    <div id="button_div">
+        <form action="about.html" method="get">
+            <button>
+                <span class="button_top">Learn More</span>
+            </button>
+        </form>
+    </div>
+
+
 </body>
 </html>
