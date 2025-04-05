@@ -17,7 +17,6 @@ body
     margin-right: 2vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
-    font-size: 2.3vw;
     font-family: 'Courier New', Courier, monospace;
     color: #EEEEEE;
 }
@@ -81,7 +80,7 @@ body
     background-color: #1a1a1a;
     color: #0f0;
     font-family: "Courier New", Courier, monospace;
-    font-size: 1vw; /* Change this for resizing (idk why)*/
+    /* font-size: 1vw; */  /* Change this for resizing (idk why)*/
     padding: 1.5em 1em;
     width: 12em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -168,8 +167,7 @@ button {
   /* Variables */
   --button_radius: 0.75em;
   --button_color: #1E1E1E;
-  --button_outline_color: #EEEEEE;
-  font-size: 1vw;
+  --button_outline_color: #EEEEEE; 
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -205,5 +203,37 @@ button:active .button_top {
   justify-content: center;
   /*border-style: solid;*/;
   margin-top: 6vw;
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    font-size: 4vw;
+  }
+
+  .header_buttons
+  {
+    font-size: 4vw; 
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  button {
+    font-size: 2.5vw;
+  }
+  .header_buttons
+  {
+    font-size: 2.5vw; 
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  button {
+    font-size: 1.5vw;
+  }
+  .header_buttons
+  {
+    font-size: 2vw; 
+  }
 }
 
