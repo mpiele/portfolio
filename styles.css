@@ -248,31 +248,3 @@ section {
 {
   min-height: 100%;
 }
-
-html, body {
-  width: 100%;
-  height:100%;
-  overflow-x: hidden;
-}
-
-html {
-  overflow-y: hidden;
-}
-
-body {
-    background: linear-gradient(-45deg, #000000, #1b1b1b, #3a3a3a, #2e2e2e);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
