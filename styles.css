@@ -205,6 +205,36 @@ button:active .button_top {
   margin-top: 6vw;
 }
 
+section {
+  border-style: dashed;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#top-content
+{
+  min-height: 100vh;
+}
+
+/* Some scaling issue fix for the min-height above. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#projects_title {
+  /*border-style: solid;*/
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  color: #EEEEEE;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2vw;
+}
+
 @media screen and (max-width: 800px) {
   button {
     font-size: 4vw;
@@ -214,6 +244,12 @@ button:active .button_top {
   {
     font-size: 4vw; 
   }
+
+  #projects_title
+  {
+    font-size: 4vw;
+  }
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
@@ -224,6 +260,7 @@ button:active .button_top {
   {
     font-size: 2.5vw; 
   }
+
 }
 
 
@@ -235,16 +272,6 @@ button:active .button_top {
   {
     font-size: 2vw; 
   }
+  
 }
 
-section {
-  border-style: dashed;
-  display: flex;
-  align-content: center;
-  min-height: 100%;
-}
-
-#top-content
-{
-  min-height: 100%;
-}
