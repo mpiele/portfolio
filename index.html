@@ -5,38 +5,52 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
+    <!--
     <div id="header">
         <a href="about.html" class="header_buttons">About</a>
         <a href="index.html" class="header_buttons">Home</a>
         <a href="contact.html" class="header_buttons">Contact</a>
     </div>
-    <div id="name_title_div">
-        <h1 id="name_title">Matei Piele</h1>
-    </div>
-    <div id="description_div">
-        <h1 id="description_text">Professional web developer, web designer and AI engineer.</h1>
-    </div>
-        
-    <!-- Terminal code -->
-    <div id="terminal_div">
-        <div class="terminal-loader">
-            <div class="terminal-header">
-                <div class="terminal-title">Status</div>
-                <div class="terminal-controls">
-                <div class="control close"></div>
-                <div class="control minimize"></div>
-                <div class="control maximize"></div>
-            </div>
+    -->
+
+    <div id="top-content"> 
+        <div id="name_title_div">
+            <h1 id="name_title">Matei Piele</h1>
         </div>
-        <div class="text">I am for hire...</div>
-      </div>
+        <div id="description_div">
+            <h1 id="description_text">Professional web developer, web designer and AI engineer.</h1>
+        </div>
+            
+        <!-- Terminal code -->
+        <div id="terminal_div">
+            <div class="terminal-loader">
+                <div class="terminal-header">
+                    <div class="terminal-title">Status</div>
+                    <div class="terminal-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                </div>
+            </div>
+            <div class="text">I am for hire...</div>
+        </div>
+        </div>
+
+        <div id="button_div">
+            <button onclick="scrollToSection1()" id="learnmore_button">
+                <span class="button_top">Learn More</span>
+            </button>
+        </div>
     </div>
 
-    <div id="button_div">
-        <button id="learnmore_button">
-            <span class="button_top">Learn More</span>
-        </button>
-    </div>
+    <section id="about-section">
+        <h1>About me</h1>
+    </section>
+
+    <section id="contact-section">
+        <h1>Contact me</h1>
+    </section>
+    
 
     <script src="scripts.js"></script> 
 </body>
