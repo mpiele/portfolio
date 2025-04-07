@@ -206,7 +206,6 @@ button:active .button_top {
 }
 
 section {
-  border-style: dashed;
   display: flex;
   align-content: center;
   text-align: center;
@@ -235,6 +234,16 @@ html, body {
   font-size: 2vw;
 }
 
+#about_me_description
+{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  color: #EEEEEE;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5vw;
+  opacity: 0.80;
+}
+
 @media screen and (max-width: 800px) {
   button {
     font-size: 4vw;
@@ -245,7 +254,7 @@ html, body {
     font-size: 4vw; 
   }
 
-  #projects_title
+  #projects_title, #about_me_description
   {
     font-size: 4vw;
   }
@@ -272,6 +281,7 @@ html, body {
   {
     font-size: 2vw; 
   }
-  
 }
+
+
 
